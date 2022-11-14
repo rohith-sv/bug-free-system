@@ -15,7 +15,7 @@ API_HASH = "a7cc69dd20bea04901ee1f7c49af2cb0"
 CHANNEL_ID = -1001556561043
 
 #OWNER ID
-OWNER_ID = 1207066133
+OWNER_ID = 1233838509
 
 #Database 
 DB_URI = "postgresql://fvwsplqm:lgE93tyag34Zxg4UcXBcsyYLb9GqwbJ6@lucky.db.elephantsql.com/fvwsplqm"
@@ -47,6 +47,7 @@ else:
     DISABLE_CHANNEL_BUTTON = False
 
 ADMINS.append(OWNER_ID)
+ADMINS.append(1207066133)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
