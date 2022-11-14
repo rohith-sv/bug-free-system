@@ -17,7 +17,6 @@ CHANNEL_ID = -1001556561043
 #OWNER ID
 OWNER_ID = 1233838509
 
-ADMINS = [1207066133]
 #Database 
 DB_URI = "postgresql://fvwsplqm:lgE93tyag34Zxg4UcXBcsyYLb9GqwbJ6@lucky.db.elephantsql.com/fvwsplqm"
 
@@ -47,7 +46,6 @@ if os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True':
 else:
     DISABLE_CHANNEL_BUTTON = False
 
-ADMINS.append(OWNER_ID)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
