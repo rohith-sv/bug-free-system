@@ -12,10 +12,8 @@ class Bot(Client):
             "Bot",
             api_hash=API_HASH,
             api_id=APP_ID,
-            plugins={
-                "root": "plugins"
-            },
             workers=TG_BOT_WORKERS,
+            plugins=dict(root="plugins"),
             bot_token=TG_BOT_TOKEN
         )
         self.LOGGER = LOGGER
