@@ -16,7 +16,6 @@ CHANNEL_ID = -1001556561043
 
 #OWNER ID
 OWNER_ID = "1233838509"
-
 #Database 
 DB_URI = "postgresql://fvwsplqm:lgE93tyag34Zxg4UcXBcsyYLb9GqwbJ6@lucky.db.elephantsql.com/fvwsplqm"
 
@@ -28,7 +27,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
-    ADMINS=[]
+    ADMINS = []
     for x in (os.environ.get("ADMINS", "").split()):
         ADMINS.append(int(x))
 except ValueError:
@@ -48,6 +47,10 @@ else:
     
 ADMINS.append(OWNER_ID)
 ADMINS.append(1207066133)
+ADMINS.append(1233838509)
+
+print('ADMIN LIST: ',ADMINS)
+
 
 LOG_FILE_NAME = "filesharingbot.txt"
 

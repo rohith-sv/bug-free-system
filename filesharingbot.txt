@@ -1,0 +1,153 @@
+[14-Nov-22 23:14:22 - INFO] - bot - Bot Running..!
+
+Created by Rohithaditya
+https://t.me/Rohithaditya
+[14-Nov-22 23:15:50 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[14-Nov-22 23:15:51 - INFO] - bot - Bot stopped.
+[14-Nov-22 23:16:28 - INFO] - bot - Bot Running..!
+
+Created by Rohithaditya
+https://t.me/Rohithaditya
+[14-Nov-22 23:17:07 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[14-Nov-22 23:17:07 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[14-Nov-22 23:17:08 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[14-Nov-22 23:17:10 - INFO] - bot - Bot stopped.
+[14-Nov-22 23:17:32 - INFO] - bot - Bot Running..!
+
+Created by Rohithaditya
+https://t.me/Rohithaditya
+[14-Nov-22 23:17:39 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[14-Nov-22 23:17:42 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[14-Nov-22 23:17:43 - INFO] - bot - Bot stopped.
+[14-Nov-22 23:17:50 - INFO] - bot - Bot Running..!
+
+Created by Rohithaditya
+https://t.me/Rohithaditya
+[14-Nov-22 23:18:10 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[14-Nov-22 23:18:10 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[14-Nov-22 23:18:11 - INFO] - bot - Bot stopped.
+[14-Nov-22 23:18:18 - INFO] - bot - Bot Running..!
+
+Created by Rohithaditya
+https://t.me/Rohithaditya
+[14-Nov-22 23:18:24 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[14-Nov-22 23:18:24 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[14-Nov-22 23:18:25 - INFO] - bot - Bot stopped.
+[14-Nov-22 23:19:28 - INFO] - bot - Bot Running..!
+
+Created by Rohithaditya
+https://t.me/Rohithaditya
+[14-Nov-22 23:19:40 - ERROR] - pyrogram.dispatcher - Invalid parse mode "html"
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyromod/listen/listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "/Users/macbook/Desktop/waste-all/Client-Al-Samd/plugins/start.py", line 98, in start_command
+    await message.reply_text(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 959, in reply_text
+    return await self._client.send_message(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/methods/messages/send_message.py", line 122, in send_message
+    message, entities = (await utils.parse_text_entities(self, text, parse_mode, entities)).values()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/utils.py", line 343, in parse_text_entities
+    text, entities = (await client.parser.parse(text, parse_mode)).values()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/parser/parser.py", line 54, in parse
+    raise ValueError(f'Invalid parse mode "{mode}"')
+ValueError: Invalid parse mode "html"
+[14-Nov-22 23:19:49 - ERROR] - pyrogram.dispatcher - Invalid parse mode "html"
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyromod/listen/listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "/Users/macbook/Desktop/waste-all/Client-Al-Samd/plugins/channel_post.py", line 14, in channel_post
+    reply_text = await message.reply_text("Please Wait...!", quote = True)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 959, in reply_text
+    return await self._client.send_message(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/methods/messages/send_message.py", line 122, in send_message
+    message, entities = (await utils.parse_text_entities(self, text, parse_mode, entities)).values()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/utils.py", line 343, in parse_text_entities
+    text, entities = (await client.parser.parse(text, parse_mode)).values()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/parser/parser.py", line 54, in parse
+    raise ValueError(f'Invalid parse mode "{mode}"')
+ValueError: Invalid parse mode "html"
+[14-Nov-22 23:20:11 - ERROR] - pyrogram.dispatcher - Invalid parse mode "html"
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyromod/listen/listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "/Users/macbook/Desktop/waste-all/Client-Al-Samd/plugins/start.py", line 98, in start_command
+    await message.reply_text(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 959, in reply_text
+    return await self._client.send_message(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/methods/messages/send_message.py", line 122, in send_message
+    message, entities = (await utils.parse_text_entities(self, text, parse_mode, entities)).values()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/utils.py", line 343, in parse_text_entities
+    text, entities = (await client.parser.parse(text, parse_mode)).values()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/parser/parser.py", line 54, in parse
+    raise ValueError(f'Invalid parse mode "{mode}"')
+ValueError: Invalid parse mode "html"
+[14-Nov-22 23:20:50 - ERROR] - pyrogram.dispatcher - Invalid parse mode "html"
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyromod/listen/listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "/Users/macbook/Desktop/waste-all/Client-Al-Samd/plugins/start.py", line 98, in start_command
+    await message.reply_text(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 959, in reply_text
+    return await self._client.send_message(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/methods/messages/send_message.py", line 122, in send_message
+    message, entities = (await utils.parse_text_entities(self, text, parse_mode, entities)).values()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/utils.py", line 343, in parse_text_entities
+    text, entities = (await client.parser.parse(text, parse_mode)).values()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/parser/parser.py", line 54, in parse
+    raise ValueError(f'Invalid parse mode "{mode}"')
+ValueError: Invalid parse mode "html"
+[14-Nov-22 23:20:50 - ERROR] - pyrogram.dispatcher - Invalid parse mode "html"
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyromod/listen/listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "/Users/macbook/Desktop/waste-all/Client-Al-Samd/plugins/start.py", line 98, in start_command
+    await message.reply_text(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 959, in reply_text
+    return await self._client.send_message(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/methods/messages/send_message.py", line 122, in send_message
+    message, entities = (await utils.parse_text_entities(self, text, parse_mode, entities)).values()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/utils.py", line 343, in parse_text_entities
+    text, entities = (await client.parser.parse(text, parse_mode)).values()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/parser/parser.py", line 54, in parse
+    raise ValueError(f'Invalid parse mode "{mode}"')
+ValueError: Invalid parse mode "html"
+[14-Nov-22 23:22:24 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[14-Nov-22 23:22:24 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[14-Nov-22 23:22:24 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[14-Nov-22 23:22:25 - INFO] - bot - Bot stopped.
+[14-Nov-22 23:22:32 - ERROR] - pyrogram.dispatcher - Invalid parse mode "html"
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyromod/listen/listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "/Users/macbook/Desktop/waste-all/Client-Al-Samd/plugins/start.py", line 98, in start_command
+    await message.reply_text(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 959, in reply_text
+    return await self._client.send_message(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/methods/messages/send_message.py", line 122, in send_message
+    message, entities = (await utils.parse_text_entities(self, text, parse_mode, entities)).values()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/utils.py", line 343, in parse_text_entities
+    text, entities = (await client.parser.parse(text, parse_mode)).values()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pyrogram/parser/parser.py", line 54, in parse
+    raise ValueError(f'Invalid parse mode "{mode}"')
+ValueError: Invalid parse mode "html"
+[14-Nov-22 23:22:33 - INFO] - bot - Bot Running..!
+
+Created by Rohithaditya
+https://t.me/Rohithaditya
+[14-Nov-22 23:24:51 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[14-Nov-22 23:24:51 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[14-Nov-22 23:24:51 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[14-Nov-22 23:24:53 - INFO] - bot - Bot stopped.

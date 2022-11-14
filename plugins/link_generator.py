@@ -6,12 +6,8 @@ from bot import Bot
 from config import ADMINS
 from helper_func import encode, get_message_id
 
-@Bot.on_message(filters.private & filters.command('batch'))
+@Bot.on_message(filters.private & filters.user(ADMINS) & filters.command('batch'))
 async def batch(client: Client, message: Message):
-    if not message.from_user.id == 1207066133 or message.from_user.id == 1233838509:
-        await message.reply_text("DONT SPAM")
-        return
-    
     while True:
         try:
             first_message = await client.ask(text = "Forward the First Message from DB Channel (with Quotes)..\n\nor Send the DB Channel Post Link", chat_id = message.from_user.id, filters=(filters.forwarded | (filters.text & ~filters.forwarded)), timeout=60)
